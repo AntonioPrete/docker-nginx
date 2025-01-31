@@ -17,3 +17,6 @@ spec:
         image: my-nginx-webapp
         ports:
         - containerPort: 80
+    spec:
+  imagePullSecrets:
+  - name: myregistrykey
