@@ -12,9 +12,9 @@ spec:
       labels:
         app: my-nginx-webapp
     spec:
-      containers:
-      - name: my-nginx-webapp
-        image: my-nginx-webapp
+containers:
+- name: nginx
+  image: my-nginx-webapp:latest
         ports:
         - containerPort: 80
     spec:
